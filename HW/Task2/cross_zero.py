@@ -42,7 +42,7 @@ def winControl():
         if (hodSave[i] == hodSave[i+3] == hodSave[i+6]) and hodSave[i]!=' ': FlagWin=True
     if FlagWin:
         print(f'Gamer №{id} YOU WIN!')
-        z=input('Чтобы начать заново нажмите ENTER\nЧтобы законьчить игру введите любой символ и нажмите ENTER-> ')
+        z=input('Чтобы начать заново нажмите ENTER\nЧтобы закончить игру введите любой символ и нажмите ENTER-> ')
         if z: exit()
         for i in range(len(hodSave)):
             hodSave[i]=' '
